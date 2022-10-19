@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Bài 1: Viết chương trình khởi tạo mảng 2 chiều, gồm một bộ các phần tử có sẵn,
+    // in ra các phần tử trong mảng. Chú ý: Sử dụng vòng lặp for lồng nhau
+    //   let a = [
+    //     [1, 2, 1, 24],
+    //     [8, 11, 9, 4],
+    //     [7, 0, 7, 27],
+    //     [7, 4, 28, 14],
+    //     [3, 10, 26, 7]
+    //   ];
+    //   for (let i = 0; i < a.length; i++) {
+    //     document.write('row' + i + '<br>')
+    //     for (let j = 0; j < a[i].length; j++) {
+    //       document.write(a[i][j] + '<br>')
+    //     }
+    //   }
+
+
+    // Bài 2: Viết một chương trình để in các ký tự trong một mảng theo thứ tự đảo ngược.
+    //         Ví dụ, nếu một mảng chứa các ký tự  [ 'c', 's', 'c', '2', '6', '1' ] sau khi thực hiện đảo ngược sẽ là "162csc"
+
+
+    // let a = [];
+    // for (let i = 0; i < 10; i++) {
+    //     let n = prompt('nhap ki tu mang thu ' + (i + 1))
+    //     a.push(n)
+    // }
+    // document.write('mang vua nhap la :' + a + '<br>')
+    // document.write('mang dao nguoc la :' + a.reverse())
+
+
+    //Bài 3: Viết một chương trình khai báo một mảng ký tự và kích thước của mảng.
+    // Chương trình này đếm số ký tự số trong mảng.
+
+    let a =[];
+    let b = 0;
+    for(let i = 0; i < 10; i++){
+        let n = prompt('nhap ki tu mang thu '+(i+1))
+        a.push(n)
+    }
+    for (let j = 0; j< a.length; j++){
+        b = j+1
+    }
+    document.write('so ki tu trong mang la'+ b)
+
+
+</script>
+
+</body>
+</html>
